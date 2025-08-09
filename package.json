@@ -5,8 +5,7 @@
   "author": "ProFIT <santiago.farias@yandex.ru>",
   "license": "MIT",
   "scripts": {
-    "build:dev": "webpack --env mode=development",
-    "build:prod": "webpack --env mode=production",
+    "build": "webpack --env mode=production",
     "watch": "webpack serve --env mode=development"
   },
   "dependencies": {
@@ -14,15 +13,24 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
     "@types/node": "^24.2.1",
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7",
     "@types/webpack": "^5.28.5",
     "@types/webpack-dev-server": "^4.7.2",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.3",
     "react-refresh": "^0.17.0",
-    "ts-loader": "^9.5.2",
+    "sass": "^1.90.0",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2",
     "webpack": "^5.101.0",
