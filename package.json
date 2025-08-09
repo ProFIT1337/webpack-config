@@ -1,0 +1,15 @@
+{
+  "name": "ProFITWebpackConfig",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ProFIT <santiago.farias@yandex.ru>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^5.101.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
