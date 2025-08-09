@@ -10,4 +10,5 @@ export interface IWebpackOptions {
     port: number,
     paths: IPaths,
     mode: BuildModeType,
+    bundleAnalyzer?: boolean,
 }

@@ -33,10 +33,16 @@ export default function buildLoaders(options: IWebpackOptions): ModuleOptions {
         ],
     };
 
+    const imagesLoader = {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+    };
+
     return {
         rules: [
             tsxLoader,
-            scssLoader
+            scssLoader,
+            imagesLoader
           ],
     }
 }

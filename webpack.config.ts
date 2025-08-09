@@ -17,6 +17,7 @@ export default (env: IEnvVariables) => {
       html: path.resolve(__dirname, 'public', 'index.html'),
       output: path.resolve(__dirname, 'build'),
     },
+    bundleAnalyzer: false,
   });
 
   return config;
